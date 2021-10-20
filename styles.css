@@ -7,7 +7,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color:honeydew;
+    background-color:burlywood;
     
 
 }
@@ -39,9 +39,12 @@ nav ul{
     display: flex;
     gap: 1.9rem;
 }
-.hero-img {
-    width: 300px;
 
+section.hero{
+    background-image:url(image/clouds.png);
+    background-size: cover;
+    
+     
 }
 .hero {
     display: flex;
@@ -51,3 +54,63 @@ nav ul{
     max-width: 68.75rem;
     margin: auto;
   }
+.hero-img {
+    height: 37.5rem;
+    width: 37.5rem;
+
+}
+.bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+  }
+.bio-title {
+    color:black;
+}
+.bio-text{
+    color:black
+}
+
+section.projects{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.projects-title{
+    background-color: burlywood;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.projects-first-title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.projects-description{
+    display:flex;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+.projects{
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+}
+.contact h2{
+    text-align: center;
+    background-color:burlywood;
+}
